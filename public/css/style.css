@@ -10840,12 +10840,12 @@ nav .navbar .nav-item {
 
 .p1section1 {
   font-size: 500%;
-  margin-bottom: 35%;
+  margin-bottom: 30%;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1500px) {
   .p1section1 {
-    display: hidden;
+    display: none;
   }
 }
 
@@ -10857,6 +10857,11 @@ nav .navbar .nav-item {
   padding: 1.5% 4%;
   font-size: 15px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.a1section1:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .courgette {
@@ -10886,6 +10891,10 @@ nav .navbar .nav-item {
 .svg-inline--fa {
   font-size: 80px;
   color: gray;
+}
+
+.svg-inline--fa:hover {
+  color: red;
 }
 
 .section-2 .row li a {
